@@ -1,0 +1,111 @@
+/* CSS Specifically for Team.html */
+tml,body {
+    background: #EFF3F4;
+    font-family: 'Open Sans', serif;
+  }
+  .hero-body .container {
+    max-width: 700px;
+  }
+  .hero-body .title {
+    color: hsl(192,17%,99%) !important;
+  }
+  .hero-body .subtitle {
+    color: hsl(192,17%,99%) !important;
+    padding-top: 2rem;
+    line-height: 1.5;
+  }
+
+  .drop {
+  text-shadow: 0px 0px #3a3a3a;
+  }
+
+  .features {
+    padding: 5rem 0;
+  }
+  .box.cta {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .joinserver {
+    margin-bottom: 5px;
+  }
+
+  .team-body {
+    margin-top: -140px;
+  }
+
+  .card-image > .fa {
+    font-size: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #df1010;
+  }
+  .card-content .content {
+    font-size: 14px;
+    margin: 1rem 1rem;
+  }
+  .card-content .content h4 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+    margin-bottom: 2rem;
+  }
+  .intro {
+    padding: 5rem 0;
+    text-align: center;
+  }
+  .sandbox {
+    padding: 5rem 0;
+  }
+  .tile.notification {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .is-shady {
+  animation: flyintoright .4s backwards;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all .2s ease-in-out;
+  }
+
+.p-background {
+  background-image: url("../storage/img/SnailBotPartnerV2-lowop.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* Cards */
+.is-dev:hover {
+  box-shadow: 0 10px 16px #a2bbf3, 0 6px 6px #a2bbf3;
+}
+.is-staff:hover {
+  box-shadow: 0 10px 16px rgba(255, 0, 0, 0.897), 0 6px 6px rgba(255, 0, 0, 0.897);
+}
+.is-beta:hover {
+  box-shadow: 0 10px 16px rgba(255, 94, 0, 0.897), 0 6px 6px rgba(255, 94, 0, 0.897);
+}
+.is-alpha:hover {
+  box-shadow: 0 10px 16px rgba(0, 153, 255, 0.897), 0 6px 6px rgba(0, 153, 255, 0.897);
+}
+.is-partner:hover{
+  box-shadow: 0 10px 16px #23d160, 0 6px 6px #23d160;
+}
+
+  .title-team{
+  text-decoration: underline;
+  margin-bottom: -40px;
+}
+
+.team-subtext{
+  margin-bottom: 70px;
+  font-size: 20px;
+  font-family: 'Whitney-Light';
+}
